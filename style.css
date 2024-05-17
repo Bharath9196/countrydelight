@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+{
+    background-color: red;
+}
+.bgcolor{
+    background-color: rgb(236, 234, 234);
+
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clearfix{
+    clear: both;
+    display: table;
+}
+.flexright{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.bg{
+    background-image: url(assets/3480\ x\ 1321-min.png_1681471922436.png);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.features{
+    border-radius: 10px;
+}
+header{
+    position:sticky;
+    top: 0;
+    background-color: transparent;
+    z-index: 1;
+}
+#locations{
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width:600px) {
+    header .navbar-nav{
+        display: none;
+    }
+    .bg{
+        background-image: url(assets/3480\ x\ 1321-min.png_1681471922436.png);
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        border-radius: 10px;
+        text-transform: capitalize;
+    }
+    .process figure{
+        width: 25%;
+    }
+}
+.products button :hover{
+    background-color: green;
+    color: white;
+
+}
+
+
+.card iframe{
+    height: 250px;
+    width: 100%;
+}
